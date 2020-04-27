@@ -1,0 +1,115 @@
+export const menu = [{
+    "children": [{
+        "URL": "/IP/ipManage/ipQuery",
+        "ID": "IP查询",
+        "NAME": "IP查询",
+        "open_way": "",
+        "ICONCLS": "paper-clip"
+    }, {
+        "URL": "/IP/ipManage/ipPlan",
+        "ID": "IP规划",
+        "NAME": "IP规划",
+        "open_way": "",
+        "ICONCLS": "paper-clip"
+    }, {
+        "URL": "/IP/ipManage/ipReport",
+        "ID": "IP报备",
+        "NAME": "IP报备",
+        "open_way": "",
+        "ICONCLS": "paper-clip"
+    }, {
+        "URL": "/IP/ipManage/ipInspect",
+        "ID": "IP核查",
+        "NAME": "IP核查",
+        "open_way": "",
+        "ICONCLS": "paper-clip"
+    }, {
+        "URL": "/IP/ipManage/ipRecycle",
+        "ID": "IP回收",
+        "NAME": "IP回收",
+        "open_way": "",
+        "ICONCLS": "paper-clip"
+    }, {
+        "URL": "/IP/ipManage/ipArchives",
+        "ID": "IP档案",
+        "NAME": "IP档案",
+        "open_way": "",
+        "ICONCLS": "paper-clip"
+    }],
+    "ID": "IP/ipManage",
+    "NAME": "IP管理",
+    "open_way": "",
+    "ICONCLS": "paper-clip"
+}, {
+    "children": [{
+        "children": [{
+            "URL": "/IP/ipSystem/companyManage",
+            "ID": "公司管理",
+            "NAME": "公司管理"
+        }, {
+            "URL": "/IP/ipSystem/departmentManage",
+            "ID": "部门管理",
+            "NAME": "部门管理"
+        }, {
+            "URL": "/IP/ipSystem/nodeManage",
+            "ID": "节点管理",
+            "NAME": "节点管理"
+        }, {
+            "URL": "/IP/ipSystem/userManage",
+            "ID": "用户管理",
+            "NAME": "用户管理"
+        }, {
+            "URL": "/IP/ipSystem/roleManage",
+            "ID": "角色管理",
+            "NAME": "角色管理"
+        }, {
+            "URL": "/IP/ipSystem/permissionManage",
+            "ID": "权限管理",
+            "NAME": "权限管理"
+        }],
+        "ID": "系统权限管理",
+        "NAME": "系统权限管理",
+        "open_way": "",
+        "ICONCLS": "paper-clip"
+    }],
+    "ID": "IP/ipSystem",
+    "NAME": "系统设置",
+    "open_way": "",
+    "ICONCLS": "paper-clip"
+}, {
+    "children": [{
+        "URL": "/IP/ipConfig/monitoringConfig",
+        "ID": "监控配置",
+        "NAME": "监控配置",
+        "open_way": "",
+        "ICONCLS": "paper-clip"
+    }, {
+        "URL": "/IP/ipConfig/indicatorsConfig",
+        "ID": "指标配置",
+        "NAME": "指标配置",
+        "open_way": "",
+        "ICONCLS": "paper-clip"
+    }],
+    "ID": "IP/ipConfig",
+    "NAME": "配置管理",
+    "open_way": "",
+    "ICONCLS": "paper-clip"
+}, {
+    "children": [{
+        "URL": "/IP/ipEquipment/elementManage",
+        "ID": "网元管理",
+        "NAME": "网元管理"
+    }, {
+        "URL": "/IP/ipEquipment/elementMonitor",
+        "ID": "网元监控",
+        "NAME": "网元监控"
+    }, {
+        "URL": "/IP/ipEquipment/collectManage",
+        "ID": "采集机管理",
+        "NAME": "采集机管理"
+    }],
+    "ID": "IP/ipEquipment",
+    "NAME": "设备管理",
+    "open_way": "",
+    "ICONCLS": "paper-clip"
+}]

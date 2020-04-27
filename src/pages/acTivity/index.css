@@ -1,0 +1,46 @@
+.modeltwo,
+.modelbutton,
+.modeltop {
+    display: inline-block;
+    margin-top: 16px;
+}
+.modeltop {
+    width: 45%;
+    margin-left: 1%;
+}
+.modelbutton {
+    margin-left:10%;
+}
+.inputcontent {
+    width: 180px;
+    display: inline;
+}
+.titles{
+    border-bottom:1px solid #e2e5ec;
+    padding:16px;
+    font-size:20px
+}
+
+/* .bluesclous {
+    background-color: #f3f3f3;
+} */
+.activetable .ant-table-thead tr th {
+    background-color: #547cd8!important;
+    color: #fff;
+}
+
+.tabstop {
+    margin-top: 32px;
+}
+.activetable {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding-bottom: 64px;
+}
+
+.activetable .ant-table-tbody tr:nth-child(1)  td,
+.activetable .ant-table-tbody tr:nth-child(3) td,
+.activetable .ant-table-tbody tr:nth-child(5) td{
+    background-color: #f3f3f3!important;
+}

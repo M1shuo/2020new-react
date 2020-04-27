@@ -1,0 +1,162 @@
+@fa_path: "../../../node_modules/font-awesome/less";
+@import "@{fa_path}/variables.less";
+@import "@{fa_path}/mixins.less";
+@import "@{fa_path}/path.less";
+@import "@{fa_path}/core.less";
+@import "@{fa_path}/icons.less";
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+html body {
+    height: 100%;
+    background: #f0f2f5;
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "sans-serif", "Helvetica"; //font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.container {
+    padding: 14px;
+}
+
+.search-bar {
+    margin-bottom: 16px;
+    .search-bar-item {
+        margin-right: 15px;
+        position: relative;
+        display: inline-block;
+        &:last-child {
+            margin-right: 0px !important;
+        }
+    }
+}
+
+.module {
+    position: relative;
+    .frame-top {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 0;
+        overflow: hidden;
+        .frame {
+            width: 100%;
+            height: 100%;
+            border: 0
+        }
+    }
+}
+
+.editable-row-text {
+    padding: 5px;
+}
+
+.editable-row-operations a {
+    margin-right: 8px;
+}
+
+.ant-layout-sider {
+    background: #fff;
+}
+
+.roleClass {
+    .ant-modal-body {
+        height: 450px;
+        overflow: auto;
+    }
+    .ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected {
+        background-color: #fff
+    }
+}
+
+.labelClass {
+    font-size: 16px;
+    color: #0078ce;
+    margin-right: 20px;
+}
+
+.nav-menu {
+    margin: 12px 0 0 24px;
+    .meun-select {
+        color: #0078ce;
+        cursor: pointer;
+    }
+}
+
+.content-component {
+    padding: 0 24px 10px;
+    background-color: #fff;
+    .operation-menu {
+        height: 65px;
+        line-height: 65px;
+    }
+    .search-bar-operation {
+        padding-left: 16px;
+        margin-bottom: 10px;
+    }
+}
+
+.menu-icon {
+    font-size: 20px !important;
+    margin-right: 6px;
+    color: #0078ce
+}
+
+.text-overflow {
+    overflow: hidden;
+    word-wrap: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* 颜色选择器样式 */
+
+.react-color-picker {
+    display: inline-block;
+    vertical-align: middle;
+    .color-picker-popover {
+        position: fixed;
+        z-index: 2;
+        display: inline-block;
+    }
+    .color-picker-cover {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .color-picker-box {
+        width: 28px;
+        height: 28px;
+        border: 1px solid #a0a0a0;
+        position: relative;
+        cursor: pointer;
+        display: inline-block;
+        &:before {
+            content: '';
+            position: absolute;
+            border: 5px solid transparent;
+            border-top-color: #000;
+            transform: rotate(-45deg);
+            right: -3px;
+            bottom: -3px;
+        }
+    }
+}
+
+.user-manage-component table {
+    table-layout: fixed;
+}
+
+.ant-layout-header {
+    padding: 0 20px;
+}
